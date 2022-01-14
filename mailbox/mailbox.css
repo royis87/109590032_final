@@ -1,0 +1,46 @@
+html {
+	overflow: hidden;
+}
+
+.logo {
+    width: 60px;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-button {
+
+    background: transparent;
+
+    border-radius: 4px;
+
+  }
+  ::-webkit-scrollbar-track-piece {
+
+    background: transparent;
+
+  }
+
+  ::-webkit-scrollbar-thumb {
+
+    border-radius: 4px;
+
+    background-color: rgba(0, 0, 0, 0.4);
+
+    border: 1px solid #F8F8FF;
+
+  }
+  ::-webkit-scrollbar-track {
+
+    box-shadow: transparent;
+
+  }
+
+  #header {
+    background: -webkit-linear-gradient(left top,#4886D1,#7E53B8);
+    background: -o-linear-gradient(bottom right,#4886D1,#7E53B8);
+    background: -moz-linear-gradient(bottom right,#4886D1,#7E53B8);
+    background: linear-gradient(to bottom right,#4886D1,#7E53B8);
+  }

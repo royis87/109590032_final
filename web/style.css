@@ -1,0 +1,98 @@
+body{
+    background: -webkit-linear-gradient(left top,#4886D1,#7E53B8);
+    background: -o-linear-gradient(bottom right,#4886D1,#7E53B8);
+    background: -moz-linear-gradient(bottom right,#4886D1,#7E53B8);
+    background: linear-gradient(to bottom right,#4886D1,#7E53B8);
+}
+
+html {
+	overflow: hidden;
+}
+
+.full {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form {
+    /* width: 23%; */
+    /* height: 30%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 40%;
+    /* background-color: aquamarine; */
+}
+
+.Form_title {
+    display: flex;
+    align-self: center;
+}
+
+/* .login_title {
+    height: 100%;
+    font-size: 100%;
+} */
+
+.logo {
+    width: 180px;
+    margin: 5px;
+    align-self: center;
+}
+
+.Info_Form {
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 80%;
+    margin: 10px;
+}
+
+.Submit_div {
+    align-self: center;
+    height: 20% !important;
+    margin: 10px;
+}
+
+.input_box {
+    width: 250px;
+    height: 50px;
+    border:1px; 
+    border-bottom-style: solid;
+    border-top-style: none;
+    border-left-style:none;
+    border-right-style:none;
+}
+
+.input_box:focus {
+    width: 250px;
+    height: 50px;
+    border:1px; 
+    border-bottom-style: solid;
+    border-top-style: none;
+    border-left-style:none;
+    border-right-style:none;
+}
+
+.LoginBtn {
+    border: 0px;
+    width: 120px;
+    height: 40px;
+    border-radius: 4px;
+    background: -webkit-linear-gradient(left top,#4886D1,#7E53B8);
+    background: -o-linear-gradient(bottom right,#4886D1,#7E53B8);
+    background: -moz-linear-gradient(bottom right,#4886D1,#7E53B8);
+    background: linear-gradient(to bottom right,#4886D1,#7E53B8);
+}
+
+#error_box {
+    color: red;
+    font-size: 10px;
+}
+#error_box1 {
+    color: red;
+    font-size: 10px;
+}
